@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+<style>
+      body {
+        background-image: url("bg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+	  .header img{
+	  float:left;
+	  width:200px;
+	  heigth:200px;
+	  background:#555
+	  }
+	  .header h1 {
+		position: relative;
+		top: 18px;
+		
+	}
+	h1 {
+	text-shadow: 6px 6px #ff00ff;
+	}
+	#deva { float:left }
+	marquee { width:80% }
+	footer {
+	text-align: right;
+	color: black;
+	}
+    </style>
+</head>
+<title>assignment </title>
+<body >
+<div class = "header">
+<div id="deva"><img src="logo.jpg"/></div>
+<marquee behavior="alternate"  scrollamount="15"><h1 style="text-align:center; font-size:50px; font-family: 'Redressed', cursive;">DEVADHARSHINI DESIGN</h1>
+</marquee>
+</div>
+<br>
+<br>
+<br>     
+	<label  for="userinput" style="font-size:40px; font-family:poppins; text-align:left;"> Enter your text: </label><br>
+	<textarea id="myInput" name="userinput" rows="8" cols="80"></textarea><br>
+	<button type="button" onclick="getInputValue()" style="width:100px ; height:50px; font-size:14px;">Get Value</button>
+    
+    <script>
+        function getInputValue(){
+            var inputVal = document.getElementById("myInput").value;
+            alert(inputVal);
+        }
+    </script>
+
+
+</body>
+<br>
+<footer>
+<p>DEVADHARSHINI work</p>
+<h2>"Thank you for visiting my page"</h2> 
+</footer>
+</html>
